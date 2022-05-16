@@ -1473,13 +1473,6 @@
     node-fetch "^2.6.1"
     querystring "^0.2.1"
 
-"@commercetools/sdk-middleware-auth@^5.1.6":
-  version "5.1.7"
-  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-auth/-/sdk-middleware-auth-5.1.7.tgz#3035d51597e34ac4e2aad60b72036b361738506f"
-  integrity sha512-lSuGWmyVtS1XRnu/R8KaUJDvF/k0OIM2lRmvCL0ih0SdRy6ztaMiEXDTKkvqS1F/mfsNjDVQRhXB6yT4OjYF7w==
-  dependencies:
-    node-fetch "^2.3.0"
-
 "@commitlint/cli@12.1.4":
   version "12.1.4"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-12.1.4.tgz#af4d9dd3c0122c7b39a61fa1cd2abbad0422dbe0"
@@ -8948,10 +8941,10 @@ jest-resolve@^26.6.2:
     resolve "^1.18.1"
     slash "^3.0.0"
 
-jest-runner-eslint@0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/jest-runner-eslint/-/jest-runner-eslint-0.11.1.tgz#390de1e96e700b70d94971ca6ef905160047715d"
-  integrity sha512-317QEVLQw/NuuNVcR7LN/7pIbA3GbFUPKencJt31BdC/A2pVWBT+8d8PBBrQpsMHENbPV8nkNgLdPYBp2hLVZw==
+jest-runner-eslint@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/jest-runner-eslint/-/jest-runner-eslint-1.0.1.tgz#145f0cb57cae44b0621f433970208baff7f7d6f3"
+  integrity sha512-jK3lfLY3yNg58plTZUnOTrf32IXVwlSm8x89VxuK0EyeHrsa3F0rQ6nqaLrbm6hbtQJyt+v97SPVKvGJ36s1HA==
   dependencies:
     chalk "^3.0.0"
     cosmiconfig "^6.0.0"
@@ -10777,7 +10770,7 @@ node-fetch-npm@^2.0.2:
     json-parse-better-errors "^1.0.0"
     safe-buffer "^5.1.1"
 
-node-fetch@^2.3.0, node-fetch@^2.5.0, node-fetch@^2.6.1:
+node-fetch@^2.5.0, node-fetch@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
